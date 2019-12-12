@@ -15,7 +15,7 @@ end
 
 
 def greet_crew(array)
-  array.each do |crew_member|
+  array.map do |crew_member|
     "Hello #{crew_member}."
   end
 end
