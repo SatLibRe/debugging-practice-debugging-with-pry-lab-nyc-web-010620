@@ -15,7 +15,9 @@ end
 
 
 def greet_crew(array)
-  array.each {|crew_member| puts "Hello #{crew_member}."}
+  array.each do |crew_member|
+    "Hello #{crew_member}."
+  end
 end
 
 def engage
